@@ -5,7 +5,7 @@ find_package(catkin REQUIRED)
 
 # This was taken from rqt_bag_plugins as example
 
-find_package(rxbag REQUIRED # COMPONENTS
+find_package(rxbag REQUIRED COMPONENTS
 std_msgs
 geometry_msgs
 sensor_msgs
