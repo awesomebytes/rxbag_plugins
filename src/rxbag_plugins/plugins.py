@@ -32,9 +32,6 @@
 #
 # Revision $Id$
 
-PKG = 'rxbag_plugins'
-import roslib; roslib.load_manifest(PKG)
-
 from image_timeline_renderer import ImageTimelineRenderer
 from image_view              import ImageView
 from plot_view               import PlotView

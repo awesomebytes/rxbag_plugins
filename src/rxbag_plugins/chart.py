@@ -32,8 +32,6 @@
 
 from __future__ import division
 
-PKG = 'rxbag_plugins'
-import roslib; roslib.load_manifest(PKG)
 
 import bisect
 import math

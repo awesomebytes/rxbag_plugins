@@ -32,8 +32,6 @@
 
 from __future__ import with_statement
 
-PKG = 'rxbag_plugins'
-import roslib; roslib.load_manifest(PKG)
 import rospy
 
 import bisect

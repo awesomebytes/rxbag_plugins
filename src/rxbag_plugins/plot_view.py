@@ -31,7 +31,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 PKG = 'rxbag_plugins'
-import roslib; roslib.load_manifest(PKG)
+import roslib
 import rospy
 
 import bisect
